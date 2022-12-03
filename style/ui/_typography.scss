@@ -12,16 +12,16 @@ a{
 
 h1, h2, h3, h4{ font-weight: 900; }
 h1{ font-size: min(calc(6vw * $multiplier), 6rem); }
-h3{ font-size: min(calc(1.5vw * 1.2 * $multiplier), 1.5rem); }
-h4{ font-size: min(calc(1.25vw * 1.2 * $multiplier), 1.25rem); }
+h3{ font-size: min(calc(1.5vw * $font-multiplier * $multiplier), 1.5rem); }
+h4{ font-size: min(calc(1.25vw * $font-multiplier * $multiplier), 1.25rem); }
 .contact h2{ font-size: min(calc(3.5vw * $multiplier), 3.5rem); }
 
 p{
   color: $neutral;
-  font-size: min(calc(1vw * 1.2 * $multiplier), 1rem);
+  font-size: min(calc(1vw * $font-multiplier * $multiplier), 1rem);
 }
 
-.contact .phone{ font-size: min(calc(1vw * 1.2 * $multiplier), 1rem); }
+.contact .phone{ font-size: min(calc(1vw * $font-multiplier * $multiplier), 1rem); }
 
 ul{
   list-style: none;

@@ -19,11 +19,11 @@ h1 {
 }
 
 h3 {
-  font-size: min(5.4vw, 1.5rem);
+  font-size: min(9vw, 1.5rem);
 }
 
 h4 {
-  font-size: min(4.5vw, 1.25rem);
+  font-size: min(7.5vw, 1.25rem);
 }
 
 .contact h2 {
@@ -32,11 +32,11 @@ h4 {
 
 p {
   color: #444;
-  font-size: min(3.6vw, 1rem);
+  font-size: min(6vw, 1rem);
 }
 
 .contact .phone {
-  font-size: min(3.6vw, 1rem);
+  font-size: min(6vw, 1rem);
 }
 
 ul {
