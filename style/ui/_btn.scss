@@ -1,0 +1,28 @@
+.btn{
+  cursor: pointer;
+  display: inline-flex;
+  border-radius: min(calc(.5vw * $multiplier), .5rem);
+  background: $accent;
+  color: #fff;
+  font-size: min(cacl(1.25vw * $multiplier), 1.25rem);
+  font-weight: 700;
+  line-height: 1.7;
+  padding-block: min(calc(.875vw * $multiplier), .875rem);
+  padding-inline: min(calc(2vw * $multiplier), 2rem);
+
+  &.outline{
+    border: min(calc(.125vw * $multiplier), .125rem) solid $neutral;
+    background: none;
+    color: $neutral;
+  }
+
+  i{
+    width: min(calc(1.5vw * $multiplier), 1.5rem);
+    aspect-ratio: 1/1;
+    background: url('./images/icons/download.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-inline-start: min(calc(1.5vw * $multiplier), 1.5rem);
+  }
+}

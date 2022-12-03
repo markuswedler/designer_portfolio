@@ -1,0 +1,15 @@
+@import "./variables/imports";
+@import "./ui/imports";
+@import "./layout/imports";
+@import "./sections/imports";
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  cursor: default;
+  background: $bg;
+}

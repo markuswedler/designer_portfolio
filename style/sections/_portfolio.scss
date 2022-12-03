@@ -1,0 +1,23 @@
+.portfolio{
+  h2{
+    font-size: min(calc(2vw * $multiplier), 2rem);
+    line-height: 1.7;
+    margin-block-end: min(calc(2vw * $multiplier), 2rem);
+  }
+
+  .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    grid-gap: 1rem;
+    a{
+      aspect-ratio: 600/320;
+      border-radius: 1rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      &:nth-child(1){ background-image: url('./images/projects/1.png'); }
+      &:nth-child(2){ background-image: url('./images/projects/2.png'); }
+      &:nth-child(3){ background-image: url('./images/projects/3.png'); }
+      &:nth-child(4){ background-image: url('./images/projects/4.png'); }
+    }
+  }
+}

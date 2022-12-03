@@ -1,0 +1,23 @@
+.hero{
+  text-align: center;
+  padding-block-start: min(calc(4vw * $multiplier), 4rem);
+
+  .name, .profession{
+    color: $neutral;
+    line-height: 1.7;
+  }
+
+  .name{
+    font-size: min(calc(2vw * $multiplier), 2rem);
+    font-weight: 500;
+  }
+
+  h1{
+    margin-block-end: min(calc(1vw * $multiplier), 1rem);
+  }
+
+  .profession{
+    font-size: min(calc(1.25vw * $multiplier), 1.25rem);
+    margin-block-end: min(calc(3vw * $multiplier), 3rem);
+  }
+}

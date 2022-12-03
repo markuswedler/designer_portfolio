@@ -1,0 +1,14 @@
+input, textarea{
+  background: none;
+  border: 1px solid $neutral;
+  box-shadow: min(calc(.25vw * $multiplier), .25rem) min(calc(.25vw * $multiplier), .25rem) 0 $neutral;
+  border-radius: min(calc(.5vw * $multiplier), .5rem);
+  font-size: min(calc(1.25vw * $multiplier), 1.25rem);
+  font-weight: 700;
+  line-height: 1.7;
+  padding-block: min(calc(.9375vw * $multiplier), .9375rem);
+  padding-inline: min(calc(1.6875vw * $multiplier), 1.6875rem);
+  ::placeholder{
+    color: #ADADAD;
+  }
+}

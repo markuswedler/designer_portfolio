@@ -1,0 +1,24 @@
+body, a{
+  color: $accent;
+}
+
+body, textarea{
+  font-family: "Inter", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4{ font-weight: 900; }
+h1{ font-size: min(calc(6vw * $multiplier), 6rem); }
+h3{ font-size: min(calc(1.5vw * $multiplier), 1.5rem); }
+h4{ font-size: min(calc(1.25vw * $multiplier), 1.25rem); }
+
+p{
+  color: $neutral;
+}
+
+ul{
+  list-style: none;
+}
