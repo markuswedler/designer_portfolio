@@ -19,15 +19,24 @@ h1 {
 }
 
 h3 {
-  font-size: min(4.5vw, 1.5rem);
+  font-size: min(5.4vw, 1.5rem);
 }
 
 h4 {
-  font-size: min(3.75vw, 1.25rem);
+  font-size: min(4.5vw, 1.25rem);
+}
+
+.contact h2 {
+  font-size: min(10.5vw, 3.5rem);
 }
 
 p {
   color: #444;
+  font-size: min(3.6vw, 1rem);
+}
+
+.contact .phone {
+  font-size: min(3.6vw, 1rem);
 }
 
 ul {
@@ -189,7 +198,6 @@ footer .copy {
 .contact h2 {
   max-width: 35rem;
   text-align: center;
-  font-size: min(10.5vw, 3.5rem);
   line-height: 1.4;
   margin-inline: auto;
   -webkit-margin-after: min(12vw, 4rem);
@@ -217,7 +225,6 @@ footer .copy {
           margin-block-end: min(3vw, 1rem);
 }
 .contact .cont p {
-  font-size: min(3vw, 1rem);
   line-height: 1.7;
 }
 .contact .cont .links {
@@ -245,7 +252,6 @@ footer .copy {
   display: flex;
   flex-flow: column;
   gap: min(1.5vw, 0.5rem);
-  font-size: min(3vw, 1rem);
   -webkit-margin-before: min(4.5vw, 1.5rem);
           margin-block-start: min(4.5vw, 1.5rem);
 }

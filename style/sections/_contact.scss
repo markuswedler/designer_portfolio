@@ -2,7 +2,6 @@
   h2{
     max-width: 35rem;
     text-align: center;
-    font-size: min(calc(3.5vw * $multiplier), 3.5rem);
     line-height: 1.4;
     margin-inline: auto;
     margin-block-end: min(calc(4vw * $multiplier), 4rem);
@@ -28,7 +27,6 @@
       margin-block-end: min(calc(1vw * $multiplier), 1rem);
     }
     p{
-      font-size: min(calc(1vw * $multiplier), 1rem);
       line-height: 1.7;
     }
     .links{
@@ -48,7 +46,6 @@
       display: flex;
       flex-flow: column;
       gap: min(calc(.5vw * $multiplier), .5rem);
-      font-size: min(calc(1vw * $multiplier), 1rem);
       margin-block-start: min(calc(1.5vw * $multiplier), 1.5rem);
       span{
         font-weight: 700;
