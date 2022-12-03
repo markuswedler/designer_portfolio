@@ -1,13 +1,13 @@
-body, a {
-  color: #020202;
-}
-
-body, textarea {
+* {
   font-family: "Inter", sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+body, a {
+  color: #020202;
 }
 
 h1, h2, h3, h4 {
