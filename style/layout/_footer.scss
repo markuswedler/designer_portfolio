@@ -2,7 +2,7 @@ footer{
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: min(calc(4vw * $multiplier));
+  gap: min(calc(4vw * $multiplier), 4rem);
   padding-block-start: min(calc(6vw * $multiplier), 6rem);
   padding-block-end: min(calc(3vw * $multiplier), 3rem);
 

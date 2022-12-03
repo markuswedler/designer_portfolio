@@ -109,7 +109,7 @@ footer {
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 12vw;
+  gap: min(12vw, 4rem);
   -webkit-padding-before: min(18vw, 6rem);
           padding-block-start: min(18vw, 6rem);
   -webkit-padding-after: min(9vw, 3rem);
