@@ -181,6 +181,7 @@ footer .copy {
   border-radius: 1rem;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #aaa;
 }
 .portfolio .projects a:nth-child(1) {
   background-image: url("./images/projects/1.png");

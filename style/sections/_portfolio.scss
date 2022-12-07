@@ -14,6 +14,7 @@
       border-radius: 1rem;
       background-size: cover;
       background-repeat: no-repeat;
+      background-color: #aaa;
       &:nth-child(1){ background-image: url('./images/projects/1.png'); }
       &:nth-child(2){ background-image: url('./images/projects/2.png'); }
       &:nth-child(3){ background-image: url('./images/projects/3.png'); }
